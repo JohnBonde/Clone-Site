@@ -1,8 +1,14 @@
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
+.container-fluid {
+  font-family: 'Courier New', Courier, monospace;
 }
-footer {
-  background-color: #f2f2f2;
-  padding: 25px;
+
+.bgImage {
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/c7/50/cf/c750cf6edab51b11a82bef21c4fd86c7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgImage h3, h4 {
+  text-shadow: 1px 1px white;
 }
